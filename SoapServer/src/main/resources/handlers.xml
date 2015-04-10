@@ -1,0 +1,12 @@
+<handler-chains xsi:schemaLocation="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee">
+    <handler-chain>
+       <handler>
+           <handler-name>ServiceLogicalHandler</handler-name>
+           <handler-class>com.soapworkshop.ws.SoapServerLogicalHandler</handler-class>
+       </handler>
+       <handler>
+           <handler-name>ServiceSOAPHandler</handler-name>
+           <handler-class>com.soapworkshop.ws.SoapServerSoapHandler</handler-class>
+       </handler>
+    </handler-chain>
+</handler-chains>
